@@ -842,7 +842,7 @@ footer img{
         width: 1000px;
         margin-left: 32px;
       }
-
+      
       .career img,
       .discography img,
       .religion img,
@@ -892,7 +892,23 @@ footer img{
     }
 
     
+@media(max-width:376px){
 
+     .menu_mobile{
+        margin-left:900px;
+    }
+
+    .banner_headline{
+         width: 1500px;
+        }
+
+           .biography_text h3,
+      .career_text h3{
+     
+        margin-left: -200px;
+    }
+
+}
 
 
 
