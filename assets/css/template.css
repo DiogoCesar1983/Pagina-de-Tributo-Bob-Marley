@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding:0px;
+    margin-bottom:50px;
     background-color:#000000;
 }
 
@@ -50,14 +51,18 @@ nav a{
     list-style:none;
 }
 
+nav a:hover{
+    border-bottom:solid 2px #ffffff;
+}
+
 
 .banner_headline {
     margin-top:50px;
     background-image: url(../images/img_headline.jpg);
     background-position: center;
     background-size: cover;
-    width:1600px;
-    height:790px;
+    width:100vw;
+    height:850px;
 }
 
 
@@ -114,7 +119,7 @@ nav a{
 .biography_text h3{
     color:#ffffff;
     font-size:16.7px;
-    line-height: 23px;
+    line-height: 26px;
     padding:20px;
     text-align:justify;
     font-family:arial;
@@ -133,8 +138,8 @@ nav a{
 .career_text  {
     color:#ffffff;
     margin-top:0%;
-    font-size:13px;
-    line-height: 23px;
+    font-size:15px;
+    line-height: 25px;
     margin-left:200px;
     padding:20px;
     text-align:justify;
@@ -145,7 +150,7 @@ nav a{
 .discography img{
     margin-top:25px;
     width:310px;
-    height:325px;
+    height:300px;
     
 }
 
@@ -153,7 +158,7 @@ nav a{
 .discography_text h3{
     color:#ffffff;
     margin-top:0%;
-    font-size:16px;
+    font-size:17px;
     line-height: 23px;
     margin-left:150px;
     padding:20px;
@@ -172,7 +177,7 @@ nav a{
     background-color:#5c5c5c;
     list-style: none;
     padding:0px;
-    width:800px;
+    width:1000px;
     border: solid 1px #ffffff;
     margin:0;
   
@@ -194,10 +199,10 @@ nav a{
     color:#ffffff;
     margin-top:25px;
     padding:20px;
-    line-height: 23px;
+    line-height: 25px;
     text-align:justify;
     font-family:arial;
-    font-size:16px;
+    font-size:17px;
 
 }
 
@@ -206,7 +211,7 @@ nav a{
     margin-top:30px;
     margin-left:240px;
     width:340px;
-    height:293px;
+    height:270px;
    
 }
 
@@ -216,16 +221,17 @@ nav a{
     color:#ffffff;
     margin-top:0%;
     padding:20px;
-    line-height: 23px;
+    line-height: 25px;
     text-align:justify;
     font-family:arial;
-    font-size:15px;
+    font-size:16px;
 
 }
 
 .end img{
+    margin-top: 20px;
     margin-left:240px;
-    width:1055px;
+    width:1230px;
     height:450px;
    
 }
@@ -258,13 +264,17 @@ footer{
 
 
 footer h5{
-    margin-top:0;
-    margin-left:377px;
+    margin-top:50px;
+    margin-left:360px;
     color:#ffffff;
     font-size:12px;
     font-family:Arial;
 }
 
+.heart{
+    height:12px;
+    width:15px;
+}
 
 .redes_sociais{
     margin-top:20px;
@@ -701,9 +711,11 @@ footer img{
 
     footer h5{
         margin-left: 439px;
-        margin-top: 5px;
-}
+        margin-top: 50px;
+        margin-left: 424px;
     }
+}
+    
 
 
 
@@ -861,7 +873,7 @@ footer img{
 
 
     .reference{
-        margin-left: 543px;
+        margin-left: 600px;
         
     }
 
@@ -872,7 +884,7 @@ footer img{
 
 
     .redes_sociais{
-        margin-left: 500px;
+        margin-left: 558px;
     }
 
 
@@ -885,7 +897,7 @@ footer img{
     }
 
     footer h5{
-        margin-left: 499px;
+        margin-left: 539px;
         font-size: 10px;
     }
 
@@ -902,25 +914,99 @@ footer img{
          width: 1500px;
         }
 
-           .biography_text h3,
-      .career_text h3{
-     
-        margin-left: -200px;
-    }
+
+    .biography_text h3,
+    .career_text h3{
+            margin-left: -210px;
+
+        }
+
+
+    .discography_text h3,
+    .religion_text h3,
+    .dead_text h3{
+
+          margin-left: -15px;
+          
+        }
+
+    
+        footer h5{
+            margin-bottom:-100px;
+        }
 
 }
 
 
+@media(max-width:320px){
 
+    .logo{
+        margin-left:-350px;
+    }
+    .menu_mobile{
+        margin-left: 700px;
+    }
 
+    .banner_headline{
+        width:1270px;
+    }
 
+    .biography img{
+        margin-left:-130px;
 
+    }
 
+    .career img,
+    .discography img,
+    .religion img,
+    .dead img{
+        margin-left: -30px;
+        width:1150px;
+    }
 
+      
 
+    #biography_title, 
+    #career_title,
+    #discography_title,
+    #religion_title,
+    #dead_title {
+    
+        margin-left:600px;
+        font-size:40px;
+    }
 
+    .biography_text h3,
+    .career_text h3,
+    .discography_text h3,
+    .religion_text h3,
+    .dead_text h3{
+     
+        width: 1150px;
+    }
 
+    .discography ul li{
+        width:1200px ;
+        margin-left:-30px;
+    }
 
+    .end img{
+        width:1100px;
+    }
+
+    .reference{
+        margin-left:454px;
+    }
+
+    .redes_sociais{
+        margin-left: 413px;
+
+}
+
+footer h5{
+    margin-left:390px;
+}
+}
 
 
 
